@@ -2,11 +2,13 @@
 <html>
     <head>
         <title>Survey Form</title>
-        <link rel="stylesheet" href="" type="text/css">
+        <link rel="stylesheet" href="styles/style.css" typ="text/css">
     </head>
     <body>
-        <h1 id="title">MangaNaCoDzien Survey Form</h1>
-        <p id="description">Thank you for all your answers! It's help me improve my Instagram accont</p>
+        <header>
+            <h1 id="title">MangaNaCoDzien Survey Form</h1>
+            <p id="description"><i>Thank you for all your answers! It's help me improve my Instagram accont</i></p>
+        </header>
         <form id="survey-form">
             <label id="name-label">Instagram nickname: </label><br>
             <input type="text" id="name" placeholder="Enter your nickname">
@@ -20,7 +22,7 @@
             <input type="number" min=0 id="number" placeholder="Enter a number of weeks">
             
             <br>
-            <label>Why are you follow me?</label><br>
+            <label id="dropdown-label">Why are you follow me?</label><br>
             <select id="dropdown">
                 <option value="Choose one" selected disabled>Select a reason</option>
                 <option value="Good photo">You take a good photo</option>
@@ -41,16 +43,16 @@
             <hr>
             <fieldset name="checkbox">
                 <legend>Your favorite things on my Instagram accont</legend>
-                <input type="checkbox" value="Buy" name="checkbox">Story about new bought mangas<br>
-                <input type="checkbox" value="Information" name="checkbox">Information from your life<br>
-                <input type="checkbox" value="Photo" name="checkbox">My photo in new post<br>
-                <input type="checkbox" value="PhotoView" name="checkbox">Little spoilers about new photo<br>
-                <input type="checkbox" value="Anime" name="checkbox">Short anime review<br>
-                <input type="checkbox" value="Reviews" name="checkbox">Reviews in post
+                <input type="checkbox" value="Buy" name="checkbox"> Story about new bought mangas<br>
+                <input type="checkbox" value="Information" name="checkbox"> Information from your life<br>
+                <input type="checkbox" value="Photo" name="checkbox"> My photo in new post<br>
+                <input type="checkbox" value="PhotoView" name="checkbox"> Little spoilers about new photo<br>
+                <input type="checkbox" value="Anime" name="checkbox"> Short anime review<br>
+                <input type="checkbox" value="Reviews" name="checkbox"> Reviews in post
             </fieldset>
             <hr>
-            <label for="textarea">You can add an additional comment or suggestion</label><br>
-            <textarea id="textarea" rows=4></textarea><br>
+            <label id="textarea-label" for="textarea">You can add an additional comment or suggestion</label><br>
+            <textarea rows=4 placeholder="Write something you want!"></textarea><br>
             <input type="submit" id="submit">
         </form>
     </body>

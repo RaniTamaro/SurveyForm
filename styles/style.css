@@ -1,0 +1,55 @@
+html {
+    background-image: url("https://i.imgur.com/IGnXy7S.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #4e191f;
+    background-blend-mode: lighten;
+    background-size: cover;  
+    font-family: serif;
+    color: #FFF;
+    font-size: 20px;
+    text-shadow: 2px 2px 5px #000;
+}
+
+h1, p {
+    text-align: center;
+}
+
+hr {
+    height: 1px;
+    background-color: #64363c;
+    border: 0;
+}
+
+#survey-form {
+    background-color: rgba(78, 25, 31, 0.85);
+    width: 40%;
+    margin: auto;
+    border-radius: 20px;
+    padding: 20px;
+
+}
+
+fieldset {
+    border: 0;
+}
+
+#name,
+#email,
+#number,
+textarea {
+    margin: 5px 5px 5px 0px;
+    padding: 5px;
+    width: 99%;
+    border-radius: 2px;
+    border: 0;
+    max-width: 100%;
+}
+
+#dropdown {
+    margin: 5px 0px 5px 0px;
+    padding: 5px;
+    width: 100%;
+    border-radius: 2px;
+    border: 0;
+}
